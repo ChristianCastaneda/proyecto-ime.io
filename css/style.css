@@ -447,8 +447,6 @@ li a{
 }
     .container-header-navbar{
         display: flex;
-        width: 100%;
-        justify-self: center;
     }
     .titulo-principal h1{
         font-size: 38px;
@@ -461,6 +459,9 @@ li a{
     }
     .container-footer div{
         font-size: 9px
+    }
+    .container-header-navbar a img{
+        display: none;
     }
 }
 

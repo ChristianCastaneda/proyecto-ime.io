@@ -317,6 +317,19 @@ li a{
 /* SEDES HTML */
 
 /* TRABAJA-CON-NOSOTROS HTML */
+.container-main-tcn section{
+    background-image: url(../assets/img/banner\ 4.jpg);
+    margin: 50px;
+    border: black solid 2px;
+    border-radius: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-contactanos{
+    padding: 45px;
+}
+/* TRABAJA-CON-NOSOTROS HTML */
 
 /* FOOTER */
 .container-footer{

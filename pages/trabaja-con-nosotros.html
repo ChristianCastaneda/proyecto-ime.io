@@ -32,47 +32,61 @@
                     <a class="logo-ba" href="https://www.argentina.gob.ar/educacion" target="_blank"><img src="../assets/img/buenosaires.png" alt="Logo IME"></a>
                 </div>
             </header>
-            <main>
+            <main class="container-main-tcn">
                 <section class="titulo-contactanos">
                     <h1>TRABAJA CON NOSOTROS</h1>
-                            <form action="" method="post">
-                                <fieldset>
-                                    <legend class="subtitulo-contactanos">DATOS PERSONALES</legend>
-                                    <label for="Nombres" class="indicadores-contactanos">
-                                        <span>Nombres</span>
-                                        <input type="text" id="Nombres" placeholder="Ingrese nombre" class="input">
-                                    </label>
-                                    <label for="Apellidos" class="indicadores-contactanos">
-                                        <span>Apellidos</span>
-                                        <input type="text" id="Apellidos" placeholder="Ingrese apellido" class="input">
-                                    </label>
-                                    <label for="DNI" class="indicadores-contactanos">
-                                        <span>DNI</span>
-                                        <input type="text" id="DNI" placeholder="Ingrese numero de DNI" class="input">
-                                    </label>
-                                    <label for="Mail" class="indicadores-contactanos">
-                                        <span>Mail</span>
-                                        <input type="text" id="Mail" placeholder="Ingrese mail" class="input">
-                                    </label>
-                                    <label for="Telefono" class="indicadores-contactanos">
-                                        <span>Telefono</span>
-                                        <input type="text" id="Telefono" placeholder="Ingrese numero telefonico" class="input">
-                                    </label>
-                                    <label for="Puesto" class="indicadores-contactanos">
-                                        <span>Puesto</span>
-                                        <input type="text" id="Puesto" placeholder="Ingrese puesto" class="input">
-                                    </label>
-                                </fieldset>
-                                <fieldset>
-                                    <legend class="subtitulo-contactanos">CURRILUM VITAE</legend> 
-                                    <label for="Curriculum" class="indicadores-contactanos">
-                                        <span>Subi tu CV</span>
-                                        <input type="file" id="Subi tu CV" class="input">
-                                        <input type="submit" id="Enviar">
-                                        <input type="reset" id="Restablecer">
-                                    </label>                   
-                                </fieldset>
-                            </form>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Nombres y Apellidos</label>
+                          <input type="email" class="form-control" placeholder="Ingrese nombre completo...">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Mail</label>
+                          <input type="password" class="form-control" placeholder="Ingrese mail...">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Domicilio</label>
+                          <input type="text" class="form-control" placeholder="Ingrese domicilio...">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">Ciudad</label>
+                          <input type="text" class="form-control" placeholder="Ingrese ciudad...">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">Telefono</label>
+                          <input type="text" class="form-control" placeholder="Ingrese telefono...">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">Sede</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Elegir sede...</option>
+                            <option>San Martin</option>
+                            <option>San Justo</option>
+                            <option>Flores</option>
+                            <option>Lanus</option>
+                            <option>Jose C Paz</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Puesto</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Elegir puesto...</option>
+                            <option>Administrativo/a</option>
+                            <option>Instructor/a</option>
+                            <option>Coordinador/a Administrativo</option>
+                            <option>Coordinador/a de Instructores</option>
+                            <option>Supervisor/a</option>
+                            <option>Gerente</option>
+                            <option>Contador/a</option>
+                          </select>
+                        </div>
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control" >
+                            </div> 
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                      </form>
                     </section>
             </main>
             <footer class="container-footer"><!--PIE DE PAGINA-->

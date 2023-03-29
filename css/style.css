@@ -459,6 +459,28 @@ form div label{
     .image-wsp{
         width: 20px;
     }
+    .container-main-tcn section{
+        width: 600px;
+        padding: 40px;
+    }
+    .container-main-tcn{
+        padding: 80px;
+    }
+    .titulo-contactanos h1{
+        font-size: 25px;
+    }
+    .row div label{
+        font-size: 16px;
+    }
+    form div input{
+        width: 40px;
+        height: 35px;
+        font-size: 10px;
+    }
+    form div select{
+        width: 60px;
+        height: 35px;
+    }
 }
 @media (max-width:425px){
     body{

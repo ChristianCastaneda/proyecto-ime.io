@@ -412,12 +412,19 @@ form div label{
 }
 
 @media (max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .container-header-navbar{
         width: 100%;
         padding: 5px 10px;
     }
     header div a{
-        width: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
     }
     .navbar ul{
         justify-self: center;
@@ -488,14 +495,18 @@ form div label{
         grid-template-columns: 1fr;
     }
     header{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
         width: 100%;
     }
     main{
         display: grid;
         grid-template-columns: 1fr;
-}
+    }
     .container-header-navbar{
+        display: flex;
+    }
+    .navbar li a{
         display: flex;
     }
     .titulo-principal h1{

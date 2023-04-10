@@ -1,0 +1,89 @@
+    main{
+        background-color: $bg-main;
+        .contenido-principal{
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url(../assets/img/banner2.jpg);
+            width: 100%;
+            height: 1000px;
+        }
+        div{
+            h1{
+                @include h2('Heebo',50px,#fff,center);
+                padding: 40px;  
+            }
+            div{
+                padding: 8px;
+                p{
+                    @include texto('Barlow',20px,aliceblue,left);
+                    padding: 8px; 
+                }
+            }
+            div{
+                a{
+                    @include texto('Barlow',35px,aliceblue,center);
+                padding-top: 15%;
+                }
+            }
+        }
+        .section-container{
+            background-color: $bg-princ;
+            margin: 60px;
+            div{
+                h2{
+                    @include h2('Heebo',50px,black,center);
+                    padding: 40px;
+                }
+            }
+            .fotos-redes-main{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                gap: 35px;
+                padding: 40px;
+             }
+             .redes-main{
+                @include flex(center);
+                padding: 25px;
+            }
+            .redes-main{
+                p{
+                    color: #FFF;
+                }
+            }
+            .redes-main{
+                a{
+                    color: #FFF;
+                }
+            }
+            .image-redes{
+                border: #FFF solid 10px;
+                justify-self: center;
+            }
+            .texto-parrafo{
+                @include texto('Barlow',25px,black,center);
+                padding-left: 5px;
+                padding-right: 15px;
+            }
+        }
+        .section-3{
+            div{
+                h2{
+                    @include h2('Heebo',50px,black,center);
+                    display: flex;
+                    padding: 40px;
+                }
+                p{
+                    @include texto('Barlow',25px,black,center);
+                    padding-left: 5px;
+                    padding-right: 15px;
+                }
+            }
+            .fotos-section3{
+                @include flex(row,center,center,0);
+                flex-wrap: nowrap;
+                gap: 35px;
+                padding-bottom: 50px;
+            }
+        }
+    }

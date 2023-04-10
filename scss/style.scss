@@ -1,0 +1,12 @@
+@import "utilities/variable";
+@import "utilities/mixins";
+@import "base/reset";
+@import "layout/header";
+@import "layout/main-index";
+
+/*MEDIA QUERRY*/
+
+@import "layout/media/media-1024";
+@import "layout/media/media-768";
+@import "layout/media/media-425";
+@import "layout/media/media-375";

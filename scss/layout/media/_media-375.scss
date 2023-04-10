@@ -1,0 +1,33 @@
+@media (max-width:375px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+    .container-header-navbar{
+        display: flex;
+    }
+    .navbar li a{
+        display: flex;
+    }
+    .titulo-principal h1{
+        font-size: 38px;
+    }
+    .titulo-principal h2{
+        font-size: 30px;
+    }
+    .container-footer h2{
+        font-size: 12px;
+    }
+    .container-footer div{
+        font-size: 9px
+    }
+}

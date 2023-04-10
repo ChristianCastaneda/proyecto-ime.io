@@ -1,0 +1,30 @@
+@media (max-width:1024px){
+    header{
+        flex-direction: column;
+    }   
+    .navbar ul{
+        justify-self: center;
+    }
+    .logo-sitio{
+        width: 8rem;
+    }
+    .navbar li a{
+        font-size: 14px;
+    }
+    .hora-header{
+        font-size: 14px;
+    }
+    .image-mail{
+        width: 18px;
+    }
+    .titulo-index h1{
+        font-size: 42px;
+    }
+    .link-info{
+        font-size: 30px;
+    }
+    .fotos-redes-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }

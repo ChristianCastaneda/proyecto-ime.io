@@ -1,23 +1,36 @@
-@media (max-widt:1024px){
+@media (max-width:1024px){
     header{
+        display: flex;
         flex-direction: column;
         .container-header-navbar{
-            width: 100%;
+            justify-content: center;
+            a{
+                width: 80px;
+                height: 100px;
+            }
             .navbar{
-                width: 100%;
                 ul{
-                    justify-self: center;
-                    gap: 20px;
+                    font-size: 15px;
+                    gap: 10px;
                 }
             }
         }
-    }
-    .section-container{
-        .fotos-redes-main{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
+    }   
+    main{
+        justify-content: center;
+        .contenido-principal{
+            div{
+                h1{
+                    @include h2('Heebo',35px,#fff,center,center);
+                }
+            }
         }
-    } 
-    
+        .section-container{
+            .fotos-redes-main{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+        }
+    }
 }

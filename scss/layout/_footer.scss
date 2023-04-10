@@ -1,3 +1,17 @@
 footer{
     background-color: $bg-princ;
+    @include flex(row,space-between,center,10px);
+    @include texto('Barlow',none,#fff,none);
+    padding: 10px 40px;
+    h2{
+        @include h2('Heebo',none,#fff,none,center);
+        font-family: 'Heebo', sans-serif;
+        text-align: center;
+    }
+    div{
+        @include flex(column,center,center,8px);
+        img{
+            width: 30px; 
+        }
+    }
 }

@@ -9,20 +9,20 @@
         }
         div{
             h1{
-                @include h2('Heebo',50px,#fff,center);
+                @include h2('Heebo',50px,#fff,center,none);
                 padding: 40px;  
             }
             div{
                 padding: 8px;
                 p{
-                    @include texto('Barlow',20px,aliceblue,left);
+                    @include texto('Barlow',20px,snow,left);
                     padding: 8px; 
                 }
             }
             div{
-                a{
-                    @include texto('Barlow',35px,aliceblue,center);
-                padding-top: 15%;
+                .link-info{
+                    @include texto('Barlow',28px,#fff,center);
+                    text-decoration: none;
                 }
             }
         }
@@ -31,7 +31,7 @@
             margin: 60px;
             div{
                 h2{
-                    @include h2('Heebo',50px,black,center);
+                    @include h2('Heebo',50px,black,center,none);
                     padding: 40px;
                 }
             }
@@ -43,7 +43,7 @@
                 padding: 40px;
              }
              .redes-main{
-                @include flex(center);
+                @include flex(row,center,center,10px);
                 padding: 25px;
             }
             .redes-main{
@@ -69,7 +69,7 @@
         .section-3{
             div{
                 h2{
-                    @include h2('Heebo',50px,black,center);
+                    @include h2('Heebo',50px,black,center,none);
                     display: flex;
                     padding: 40px;
                 }

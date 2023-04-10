@@ -1,0 +1,18 @@
+.titulo-contactanos{
+    background-color: #FFF;
+    h1{
+        @include h2('Heebo',50px,black,center,none);
+        padding: 40px;
+    }
+    .mapa-ubicacion{
+        @include flex(row,center,none,none);
+        padding: 40px;
+        flex-wrap: nowrap;
+    }
+    .mb-3{
+        padding: 12px;
+        .col-12{
+            padding-left: 25px;
+        }
+    }
+}

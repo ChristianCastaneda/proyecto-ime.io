@@ -5,17 +5,30 @@
     align-items: $align;
     gap: $gap;
 }
-@mixin texto($ffamily,$fsize,$color,$justyfi) {
+@mixin texto($ffamily,$fsize,$color,$justify) {
     display: flex;
     font-family: $ffamily, sans-serif;
     font-size: $fsize;
     color: $color;
     justify-content: $justify;
 }
-@mixin h2($ffamily,$fsize,$color,$justify) {
+@mixin h2($ffamily,$fsize,$color,$justify,$text-al) {
     display: flex;
     font-family: $ffamily, sans-serif;
     font-size: $fsize;
     color: $color;
     justify-content: $justify;
+    text-align: $text-al;
+}
+@mixin grid($gtc,$gtr,$color) {
+    display: grid;
+    grid-template-columns: $gtc;
+    grid-template-rows: $gtr;
+    background-color: $color;
+}
+@mixin bg($position,$repeat,$size,$attachment) {
+    background-position: $position;
+    background-repeat: $repeat;
+    background-size: $size;
+    background-attachment: $attachment;
 }

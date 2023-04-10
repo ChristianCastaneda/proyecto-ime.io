@@ -1,8 +1,14 @@
 @import "utilities/variable";
 @import "utilities/mixins";
 @import "base/reset";
+@import "layout/footer";
 @import "layout/header";
 @import "layout/main-index";
+@import "layout/main-qs";
+@import "layout/main-contacto";
+@import "layout/main-sedes";
+@import "layout/main-tcn";
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 /*MEDIA QUERRY*/
 

@@ -1,0 +1,47 @@
+.container-main-sedes{
+    @include grid(repeat(5, 1fr),100px repeat(2, 1fr),#fff);
+    grid-gap: 15px 15px;
+    padding: 40px;
+    h1{
+        grid-column: 1 / 6;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Heebo', sans-serif;     
+    }
+    div{
+        @include flex(column,center,center,25px);
+        font-family: 'Barlow', sans-serif;
+        color: #FFF;
+        div{
+            @include flex(column,none,none,10px);
+            background-color: $bg-princ;
+            width: 280px;
+            height: 280px;
+            div{
+                @include flex(row,center,none,8px);
+                img{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .maps-sedes{
+        grid-gap: 25px 25px;
+        text-align: center;
+    }
+    .sm{
+        grid-row: 2 / 3;
+    }
+    .sj{
+        grid-row: 2 / 3;
+    }
+    .fl{
+        grid-row: 2 / 3;
+    }
+    .ln{
+        grid-row: 2 / 3;
+    }
+    .jcp{
+        grid-row: 2 / 3;
+    }
+}

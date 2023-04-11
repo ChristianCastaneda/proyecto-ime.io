@@ -1,9 +1,9 @@
 .container-main-tcn{
-    background-image: url(../../assets/img/banner4.jpg);
+    background-image: url(../assets/img/banner4.jpg);
     @include bg(center,no-repeat,cover,fixed);
     padding: 60px;
     section{
-        background-image: url(../../assets/img/banner4.jpg);
+        background-image: url(../assets/img/banner4.jpg);
         padding: 180px 300px;
         border: black solid 2px;
         border-radius: 35px;

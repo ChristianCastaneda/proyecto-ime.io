@@ -176,7 +176,7 @@ main {
     padding-bottom: 50px; }
 
 .main-quienes-somos {
-  background-image: url(../../assets/img/banner3.jpg);
+  background-image: url(../assets/img/banner3.jpg);
   width: 100%; }
   .main-quienes-somos div h1 {
     display: flex;
@@ -278,14 +278,14 @@ main {
     grid-row: 2 / 3; }
 
 .container-main-tcn {
-  background-image: url(../../assets/img/banner4.jpg);
+  background-image: url(../assets/img/banner4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 60px; }
   .container-main-tcn section {
-    background-image: url(../../assets/img/banner4.jpg);
+    background-image: url(../assets/img/banner4.jpg);
     padding: 180px 300px;
     border: black solid 2px;
     border-radius: 35px;

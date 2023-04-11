@@ -1,18 +1,18 @@
-@import "utilities/variable";
-@import "utilities/mixins";
-@import "base/reset";
-@import "layout/footer";
-@import "layout/header";
-@import "layout/main-index";
-@import "layout/main-qs";
-@import "layout/main-contacto";
-@import "layout/main-sedes";
-@import "layout/main-tcn";
+@import "./utilities/variable";
+@import "./utilities/mixins";
+@import "./base/reset";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-qs";
+@import "./layout/main-contacto";
+@import "./layout/main-sedes";
+@import "./layout/main-tcn";
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 /*MEDIA QUERRY*/
 
-@import "layout/media/media-1024";
-@import "layout/media/media-768";
-@import "layout/media/media-425";
-@import "layout/media/media-375";
+@import "./layout/media/media-1024";
+@import "./layout/media/media-768";
+@import "./layout/media/media-425";
+@import "./layout/media/media-375";

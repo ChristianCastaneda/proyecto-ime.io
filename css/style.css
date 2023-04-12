@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 footer {
-  background-color: #19386e;
+  background: linear-gradient(0deg, #193C88 50%, #000000 100%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,7 +37,7 @@ footer {
 
 header {
   display: grid;
-  background-color: #19386e;
+  background: linear-gradient(180deg, #193C88 50%, #000000 100%);
   width: 100%; }
   header .hora-header {
     display: flex;
@@ -110,13 +110,13 @@ main {
     justify-content: center;
     text-decoration: none; }
   main .section-container {
-    background-color: #19386e;
+    background: linear-gradient(161deg, #193C88 24%, #000000 100%);
     margin: 60px; }
     main .section-container div h2 {
       display: flex;
       font-family: "Heebo", sans-serif;
       font-size: 50px;
-      color: black;
+      color: #FFF;
       justify-content: center;
       text-align: none;
       padding: 40px; }
@@ -201,7 +201,8 @@ main {
       font-family: "Barlow", sans-serif;
       font-size: 18px;
       color: #fff;
-      justify-content: none; }
+      justify-content: none;
+      padding: 25px; }
 
 .titulo-contactanos {
   background-color: #FFF; }
@@ -252,7 +253,7 @@ main {
       justify-content: none;
       align-items: none;
       gap: 10px;
-      background-color: #19386e;
+      background-color: #193C88;
       width: 280px;
       height: 280px; }
       .container-main-sedes div div div {

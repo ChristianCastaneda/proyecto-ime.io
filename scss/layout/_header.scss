@@ -1,6 +1,6 @@
 header{ 
     display: grid;
-    background-color: #19386e;
+    background: linear-gradient(180deg, #193C88 50%, #000000 100%);
     width: 100%;
     .hora-header{
         @include flex(row,center,center,8px);

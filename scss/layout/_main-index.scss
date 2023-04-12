@@ -27,11 +27,11 @@
             }
         }
         .section-container{
-            background-color: $bg-princ;
+            background: linear-gradient(161deg, #193C88 24%, #000000 100%);
             margin: 60px;
             div{
                 h2{
-                    @include h2('Heebo',50px,black,center,none);
+                    @include h2('Heebo',50px,#FFF,center,none);
                     padding: 40px;
                 }
             }

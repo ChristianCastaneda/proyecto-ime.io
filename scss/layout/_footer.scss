@@ -1,5 +1,5 @@
 footer{
-    background-color: $bg-princ;
+    background: linear-gradient(0deg, #193C88 50%, #000000 100%);
     @include flex(row,space-between,center,10px);
     @include texto('Barlow',none,#fff,none);
     padding: 10px 40px;

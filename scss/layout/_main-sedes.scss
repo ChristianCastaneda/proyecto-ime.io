@@ -12,6 +12,10 @@
         @include flex(column,center,center,25px);
         font-family: 'Barlow', sans-serif;
         color: #FFF;
+        h2{
+            color: black;
+            text-shadow: 2px 2px gray;
+        }
         div{
             @include flex(column,none,none,10px);
             background-color: $bg-princ;

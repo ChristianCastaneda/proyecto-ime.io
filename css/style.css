@@ -247,6 +247,9 @@ main {
     gap: 25px;
     font-family: 'Barlow', sans-serif;
     color: #FFF; }
+    .container-main-sedes div h2 {
+      color: black;
+      text-shadow: 2px 2px gray; }
     .container-main-sedes div div {
       display: flex;
       flex-direction: column;

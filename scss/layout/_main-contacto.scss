@@ -5,7 +5,7 @@
         padding: 40px;
     }
     .mapa-ubicacion{
-        @include flex(row,center,none,none);
+        @include flex(column,center,center,none);
         padding: 40px;
         flex-wrap: nowrap;
     }

@@ -72,11 +72,10 @@
                 }
             }
             .image-redes{
-                border: #FFF solid 10px;
+                border: #FFF solid 1px;
                 justify-self: center;
             }
             .texto-parrafo{
-                
                 @include texto('Barlow',25px,black,center);
                 padding-left: 5px;
                 padding-right: 15px;
@@ -84,6 +83,8 @@
         }
         .section-3{
             div{
+                display: flex;
+                flex-direction: column;
                 h2{
                     @include h2('Heebo',50px,black,center,none);
                     display: flex;
